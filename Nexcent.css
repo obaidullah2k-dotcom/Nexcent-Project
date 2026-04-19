@@ -1,0 +1,371 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.hero-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#heroCarousel .carousel-indicators button {
+    background-color: #388E3C; /* Nexcent Green */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Forces them to be circles */
+}
+
+/* Style for the active dot */
+#heroCarousel .carousel-indicators .active {
+    opacity: 1;
+    
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-primary {
+  background-color: #4f46e5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+/* =========================
+   CARDS
+========================= */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* COMMUNITY CARDS */
+.community-card {
+  background: #f5f7fa;
+  padding: 40px 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.community-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   CLIENT LOGOS
+========================= */
+.clients-logos img {
+  max-height: 40px;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.clients-logos img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* =========================
+   STATS SECTION
+========================= */
+.stats-section {
+  background-color: #f5f7fa;
+  padding: 80px 0;
+}
+
+.stats-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.stats-text {
+  margin-top: 10px;
+}
+
+.stat-box {
+  gap: 15px;
+}
+
+.stat-icon {
+  width: 40px;
+}
+
+.stat-box h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.stat-box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* =========================
+   FEATURE / DESIGN SECTION
+========================= */
+.calender-section {
+  padding: 80px 0;
+}
+
+.design-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.design-text {
+  font-size: 15px;
+  margin: 20px 0 30px;
+  line-height: 1.6;
+}
+
+.design-btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.design-img {
+  max-width: 100%;
+}
+
+/* =========================
+   TESTIMONIAL
+========================= */
+.testimonial-card {
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.logo-box img {
+  width: 100%;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.user-role {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.brand-logos img {
+  height: 25px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+
+.meet-link {
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.meet-link:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   BLOG SECTION
+========================= */
+.section-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 14px;
+}
+
+.blog-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.overlay-box {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e9ecef;
+  padding: 20px;
+  border-radius: 12px;
+  width: 85%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-box h6 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.readmore {
+  text-decoration: none;
+}
+
+.readmore:hover {
+  text-decoration: underline;
+}
+
+.card-wrapper {
+  margin-bottom: 80px;
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+.cta-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background: #263238;
+  color: #cfd8dc;
+  padding: 60px 0;
+}
+
+.footer h5 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #cfd8dc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-right: 12px;
+  background: #37474f;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.email-box {
+  display: flex;
+  background: #37474f;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.email-box input {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+  outline: none;
+}
+
+.email-box button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.small-text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .hero-title,
+  .community-title,
+  .feature-title,
+  .stats-title,
+  .design-title {
+    font-size: 26px;
+  }
+
+  .cta-section h1 {
+    font-size: 32px;
+  }
+
+  .hero-section {
+    text-align: center;
+  }
+}
